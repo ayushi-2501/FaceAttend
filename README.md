@@ -15,7 +15,7 @@ All the user first have to get register along with username and password. Users 
 faces detected will be compared with images present in the dataset. If match found, attendance will be marked for the respective user. 
 
 * **Create Dataset**  : Images of users are captured using a web cam. Multiple images of single user will be acquired with various gestures and angles.
-* **Face Detectiom** : Dlib's HOG facial detector. Facial Landmark Detection using Dlib's 68 point shape predictor. Classification of Unknown Embedding using a Linear SVM (scikit-learn).
+* **Face Detection** : Dlib's HOG facial detector. Facial Landmark Detection using Dlib's 68 point shape predictor. Classification of Unknown Embedding using a Linear SVM (scikit-learn).
 * **Face Recognition** : face_recognition by Adam Geitgey.
 * **Attendance Updation** : After face recognition process, the recognized faces will be marked as present and the rest will be marked as absent.
 
