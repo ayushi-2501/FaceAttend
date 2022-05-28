@@ -1,8 +1,14 @@
 
+
 # FACEATTEND
 
 Attendance system using Face Recognition developed using Django framework and libraries like Dlib, Opencv and face_recognition.
-The aim of this project is to build a attendance system which is based on face recognition. It can be used in companies,schools and colleges. Here face of 
+The aim of this project is to build a attendance system which is based on face recognition. Face 
+recognition system can be used for attendance marking in 
+schools, colleges, offices, etc. This system aims to build a 
+attendance system which uses the concept of face recognition as 
+existing manual attendance system is time consuming and 
+cumbersome to maintain. Here face of 
 an individual will be considered for marking attendance. 
 It detects the faces of users and attendance will be marked if the detected 
 face is found in the database. 
@@ -26,27 +32,25 @@ faces detected will be compared with images present in the dataset. If match fou
 ```
 FaceAttend/Face Attendance/face_recognition_data
 ```
+## Documentation
+
+Documentation is available on this [link](https://drive.google.com/drive/folders/1VUP90cYxWo_D2EGDxciO5Dg4uS7H_WFe?usp=sharing)
 ## About
-```
+
 This project works with 2 types
 * Admin 
 * User
-````
 
-```
 Admin can perform following functionalities : 
 * Login
 * Register new user
 * Add user photos to the training dataset
 * Train the model 
-* View attendance of all user. Attendance can be viewed by date or employee.
+* View attendance of all user
 
-```
 
-```
 User can perform following functionalities :
 * Login
-* Mark attendance-in and attendance-out by face
+* Mark attendance-in and attendance-out  
 * View attendance of itself
 
-```
